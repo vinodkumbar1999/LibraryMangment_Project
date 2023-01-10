@@ -1,0 +1,61 @@
+.adduser{
+    margin: 0%;
+    padding: 0%;
+}
+.addusercontainer{
+    height: 540px;
+    width: 33%;
+    background-color: white;
+    margin: 30px auto;
+}
+.addusercontainer h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+.adduserform{
+    padding-top: px;
+}
+.adduserform form{
+    margin-top: 30px;
+}
+.addusercontainer input{
+    height: 30px;
+    width: 380px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.addusercontainer input:focus{
+    border-color: #483D8B;
+    outline: none;
+}
+.adduserform label{
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 50px;
+}
+.adduserform button{
+    height: 35px;
+    width: 230px;
+    background-color:#483D8B;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border: 1px solid white;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.adduserform .formage {
+    margin-top: 15px;
+}
+.adduserform .formemail {
+    margin-top: 15px;
+}
+.adduserform .formphone {
+    margin-top: 15px;
+}
+

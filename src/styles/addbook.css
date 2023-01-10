@@ -1,0 +1,52 @@
+.addbook h1{
+    margin: 0%;
+    background-color: white;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px ;
+}
+.formContainer{
+    background-color: white;
+}
+.addbookall{
+    border: 1px solid black;
+    height: auto;
+    width: 40%;
+    margin-left: 450px;
+}
+.formContainer input{
+    height: 30px;
+    width: 450px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.formContainer input:focus{
+    border-color: #483D8B;
+    outline: none;
+}
+.formContainer label{
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 50px;
+}
+.formContainer button{
+    height: 35px;
+    width: 230px;
+    background-color:#483D8B;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border: 1px solid white;
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.formContainer textarea{
+    margin-left: 50px;
+}
+.formContainer .authors, .categories, .pageCount,.shortDescription, .longDescription, .thumbnailUrl{
+    margin-top: 15px;
+}

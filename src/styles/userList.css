@@ -1,0 +1,35 @@
+.userlist{
+    background-color: white;
+    margin-top: 0%;
+
+}
+.userlist h1{
+    margin: 0%;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.user{
+    height: 230px;
+    width: 30%;
+    border: 1px solid gray;
+    display: inline-table;
+    margin: 10px 23px;
+    background-color: gainsboro;
+     
+}
+.usersection button{
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    margin-left: 180px;
+    background-color: white;
+    transition: .9s;
+}
+.usersection button:hover{
+    background-color: midnightblue;
+    color: whitesmoke;
+}

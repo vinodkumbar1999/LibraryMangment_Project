@@ -1,0 +1,10 @@
+.readmorebook{
+    height: 600px;
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    margin: 20px auto;
+}
+.readmorebook p::first-letter{
+    font-size: 28px;
+}

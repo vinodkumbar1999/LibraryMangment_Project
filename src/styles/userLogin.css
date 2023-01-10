@@ -1,0 +1,42 @@
+.userform_container{
+    height: 500px;
+    width: 550px;
+    background-color: white;
+    margin: 150px auto;
+    text-align: center;
+}
+.userform_input{
+    margin-top: 45px;
+}
+.userform_container h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    padding-top: 70px;
+}
+.userform_container .userform_input button{
+    padding: 7px 130px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color:green ;
+    margin-top: 45px;
+    color: white;
+    border-color: white;
+
+}
+
+.userform_input input{    
+    border: 0;
+    border-bottom: 1px solid gray;
+    background-color:transparent ;
+    color: gainsboro;
+    width: 300px;
+    transition: 1.5s;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.userform_input input:focus{
+    outline: none;
+    border-color: green;
+    width: 350px;
+}
