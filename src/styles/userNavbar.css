@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar-user{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#483D8B;
+    
+}
+.navbar-user .navbar-list li{
+    display: inline-block;
+}
+.navbar-user .navbar-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+    color: white;
+    
+}
+.navbar-user .navbar-list li a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+
+}
+.navbar-user .user-nav-logo{
+    padding: 15px 20px;
+}
+.user-nav-logo h1{
+    color: white;
+    margin-left: 15px;
+}
+.user-nav-logo{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}

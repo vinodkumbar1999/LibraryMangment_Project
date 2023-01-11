@@ -1,0 +1,51 @@
+.adminDashBoard .section p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+.section1 {
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2018/10/DSC_0838-1024x400.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 70%;
+    margin: 100px auto;
+}
+.section1 .detail{
+    background-color: white;
+    height: 210px;
+    width: 65%;
+    margin: 270px auto;
+    padding: 30px;
+}
+
+.section2 {
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2021/11/LinkedInLearning-1024x400.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 70%;
+    margin: 180px auto;
+}
+.section2 .detail{
+    background-color: white;
+    height: 210px;
+    width: 65%;
+    margin: 270px auto;
+    padding: 30px;
+}
+.section3 {
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2018/10/DSC_0824-1024x400.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 70%;
+    margin: 180px auto;
+}
+.section3 .detail{
+    background-color: white;
+    height: 210px;
+    width: 65%;
+    margin: 270px auto;
+    padding: 30px;
+}

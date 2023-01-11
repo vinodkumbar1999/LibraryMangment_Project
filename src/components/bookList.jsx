@@ -1,6 +1,7 @@
 import { useState,useEffect } from "react";
 import '../styles/bookList.css'
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
+
 
 const BookList = () => {
     let [book, setbook] = useState([])
@@ -21,10 +22,17 @@ const BookList = () => {
         alert(`${title} has been deleted Permently.`)
     }
     let handeldisplybook=(id)=>{
+       if(loc.pathname == '/admin/book-list'){
         nav(`/admin/book-list/${id}`)
+       }
+       else{
+        nav(`/user/book-list/${id}`)
+       }
     }
+    
 
     let nav=useNavigate()
+    let loc=useLocation() //to fetch the route value
     return ( 
         <div className="booklist">
             <h1>BOOK LIST:{book.length}</h1>
@@ -39,8 +47,8 @@ const BookList = () => {
                             <h2>Title: {data.title}</h2>
                             <p> <b>Authors: </b>{data.authors}</p>
                             <p> <b> Category: </b>{data.categories}</p> <p><b>Page Count:</b>{data.pageCount}</p>
-                            <button onClick={()=>handelDelete(data.id, data.title)}>Delete</button>
                             <button onClick={()=>handeldisplybook(data.id)}>Read More</button>
+                            {loc.pathname == '/admin/book-list' && <button onClick={()=>handelDelete(data.id, data.title)}>Delete</button>}
                             </div>
                         </div>
                         
