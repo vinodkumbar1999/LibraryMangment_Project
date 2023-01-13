@@ -4,21 +4,22 @@ import '../styles/ladingPage.css'
 const LandlingPage = () => {
     return (
         <div className="landlingpage">
-            <div className="selectLoginMainType">
-                <div className="selectLoginType">
+            <div className="selectLoginType">
+                <div className="head">
                     <h1>Library management System</h1>
-                    <div className="logs">
-                        <div className="adminlog">
-                            <img src="images/adminlogo.png" alt="" /> <br />
-                            <button ><Link to='/admin-login'>Admin</Link></button>
-                        </div>
-                        <div className="userlog">
-                            <img src="images/userlogo.png" alt="" /> <br />
-                            <button ><Link to='/user-login'>User</Link></button>
-                        </div>
+                </div>
+                <div className="logo">
+                    <img src="images/adminlogo.png" alt="" />
+                    <img src="images/userlogo.png" alt="" />
+                </div>
+                <div className="btn">
+                    <div className="adminbtn">
+                    <button><Link to='/admin-login'>Admin</Link></button>
+                    </div>
+                    <div className="userbtn">
+                    <button ><Link to='/user-login'>User</Link></button>
                     </div>
                 </div>
-
             </div>
         </div>
     );

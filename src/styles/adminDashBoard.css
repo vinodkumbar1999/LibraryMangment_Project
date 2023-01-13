@@ -1,51 +1,77 @@
+.adminDashBoard .section{
+    padding: 70px;
+}
 .adminDashBoard .section p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
     font-weight: 400;
 }
-.section1 {
-    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2018/10/DSC_0838-1024x400.jpg");
+.adminDashBoard .section1 {
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2016/02/Pattern-BG-EXPLORE.png");
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 400px;
     width: 70%;
-    margin: 100px auto;
+    margin: 0px auto 180px 320px;
+    
 }
-.section1 .detail{
+.adminDashBoard .section1 .detail{
     background-color: white;
     height: 210px;
     width: 65%;
-    margin: 270px auto;
+    margin: 170px auto;
     padding: 30px;
+    border: 2px solid gainsboro;
 }
 
-.section2 {
-    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2021/11/LinkedInLearning-1024x400.jpg");
+.adminDashBoard .section2 {
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2016/02/Pattern-BG-EXPLORE.png");
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 400px;
     width: 70%;
-    margin: 180px auto;
+    margin: 0px auto 180px 320px;
 }
-.section2 .detail{
+.adminDashBoard .section2 .detail{
     background-color: white;
-    height: 210px;
+    height: 250px;
     width: 65%;
-    margin: 270px auto;
+    margin: 170px auto;
     padding: 30px;
+    border: 2px solid gainsboro;
 }
-.section3 {
-    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2018/10/DSC_0824-1024x400.jpg");
+.adminDashBoard .section3 {
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2016/02/Pattern-BG-EXPLORE.png");
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 400px;
     width: 70%;
-    margin: 180px auto;
+    margin: 0px auto 180px 320px;
 }
-.section3 .detail{
+.adminDashBoard .section3 .detail{
     background-color: white;
-    height: 210px;
+    height: 250px;
     width: 65%;
-    margin: 270px auto;
+    margin: 170px auto;
     padding: 30px;
+    border: 2px solid gainsboro;
+}
+.adminDashBoard .section1 .detail h6, .adminDashBoard .section2 .detail h6, .adminDashBoard .section3 .detail h6{
+    color: #EB9532;
+    text-decoration: underline;
+    text-decoration-color: #EB9532;
+    font-size: 20px;
+    margin-top: -14px;
+}
+.adminDashBoard .section1 .detail h3, .adminDashBoard .section2 .detail h3, .adminDashBoard .section3 .detail h3{
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.adminDashBoard .section1 .detail h2, .adminDashBoard .section2 .detail h2,.adminDashBoard .section3 .detail h2{
+    font-size: 34px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: #EB9532;
 }

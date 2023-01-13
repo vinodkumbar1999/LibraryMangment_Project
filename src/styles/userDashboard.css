@@ -1,0 +1,103 @@
+.userDashBoard .section p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+.userDashBoard .section{
+    padding-top: 70px;
+}
+.userDashBoard .section1 {
+    background-image: url(https://www.greenwichlibrary.org/wp-content/uploads/2018/10/DSC_0838-1024x400.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 70%;
+    margin: 0px auto 100px 320px;
+}
+.userDashBoard .section1 .detail{
+    background-color: white;
+    height: 210px;
+    width: 65%;
+    margin: 170px auto;
+    padding: 30px;
+    border: 2px solid gainsboro;
+}
+.userDashBoard .section22{
+    background-image: url(https://www.greenwichlibrary.org/wp-content/uploads/2018/10/DSC_0824-1024x400.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 70%;
+    margin: 150px auto 100px 320px;
+}
+.userDashBoard .section22 .detail{
+    background-color: white;
+    height: 210px;
+    width: 65%;
+    margin: 170px auto;
+    padding: 30px;
+    border: 2px solid gainsboro;
+}
+
+.userDashBoard .section2 {
+    background-image: url(https://www.greenwichlibrary.org/wp-content/uploads/2021/11/LinkedInLearning-1024x400.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 70%;
+    margin: 150px auto 100px 320px;
+}
+.userDashBoard .section2 .detail{
+    background-color: white;
+    height: 210px;
+    width: 65%;
+    margin: 170px auto;
+    padding: 30px;
+    border: 2px solid gainsboro;
+}
+.userDashBoard .section2 h3,.userDashBoard .section22 h3, .userDashBoard .section1 h3{
+    text-decoration: underline;
+    text-decoration-color: #446CB3;
+    text-decoration-line: underline;
+    font-size: 25px;
+    font-weight: 500;
+}
+.userDashBoard .section2 button, .userDashBoard .section22 button, .userDashBoard .section1 button{
+    padding: 10px 25px;
+    font-size: 19px;
+    color: whitesmoke;
+    background-color:#446CB3 ;
+    border: 1px solid whitesmoke;
+    margin-left: 500px;
+    margin-top: -30px;
+}
+.userDashBoard .section3 {
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2016/04/Pattern-BG-Donate.svg");
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    width: 100%;
+    margin-top: 150px;
+}
+.userDashBoard .section3 .detail{
+    padding: 0px;
+    text-align: center;
+
+}
+.userDashBoard .section3 .detail h1{
+    font-size: 40x;
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.userDashBoard .section3 .detail p{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.userDashBoard .section3 .detail button{
+    padding: 10px 25px;
+    font-size: 19px;
+    color: gray;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}

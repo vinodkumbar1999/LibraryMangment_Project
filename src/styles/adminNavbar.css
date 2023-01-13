@@ -1,16 +1,21 @@
-body{
-    margin: 0%;
-    padding: 0%;
-}
+
 .navbar-admin{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color:#483D8B;
-    
+    background-color:#446CB3;
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 0%;
+}
+.navbar-admin .navbar-list{
+    margin-top: 80px;
+    margin-left: -20px;
+}
+.navbar-admin .navbar-list #logoutadmin{
+    margin-top: 190px;
 }
 .navbar-admin .navbar-list li{
-    display: inline-block;
+    display: block;
+    margin-top: 25px;
 }
 .navbar-admin .navbar-list li a{
     text-decoration: none;
@@ -27,14 +32,13 @@ body{
 
 }
 .navbar-admin .admin-nav-logo{
-    padding: 15px 20px;
+    padding: 20px auto;
+}
+.navbar-admin .admin-nav-logo img{
+    margin-top: 25px;
+    margin-left: 25%;
 }
 .admin-nav-logo h1{
     color: white;
-    margin-left: 15px;
 }
-.admin-nav-logo{
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-}
+

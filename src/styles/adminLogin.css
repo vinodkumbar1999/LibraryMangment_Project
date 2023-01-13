@@ -5,6 +5,7 @@
     background-color: white;
     margin: 150px auto;
     text-align: center;
+    border: 2px solid gainsboro;
 }
 .adminform_input{
     margin-top: 45px;

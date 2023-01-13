@@ -12,7 +12,7 @@ const UserNavbar = () => {
                 <ul>
                     <li><Link to='/user/'>DASHBOARD</Link></li>
                     <li><Link to="/user/book-list">BOOK LIST</Link></li>
-                    <li><Link to='/'>LOG OUT</Link></li>
+                    <li id="logout"><Link to='/'>LOG OUT</Link></li>
                 </ul>
             </div>
         </div>

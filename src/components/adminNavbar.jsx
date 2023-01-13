@@ -15,7 +15,7 @@ const AdminNavbar = () => {
                         <li><Link to='/admin/add-user'>ADD USERS</Link></li>
                         <li><Link to='/admin/book-list'>BOOK LIST</Link></li>
                         <li><Link to='/admin/user-list'>USER LIST</Link></li>
-                        <li><Link to='/'>LOG OUT</Link></li>
+                        <li id="logoutadmin"><Link to='/'>LOG OUT</Link></li>
                     </ul>
                 </div>
             </div>

@@ -1,16 +1,22 @@
-body{
-    margin: 0%;
-    padding: 0%;
-}
+
 .navbar-user{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color:#483D8B;
     
+    background-color:#446CB3;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 0%;
+}
+.navbar-user .navbar-list{
+    margin-top: 100px;
+    margin-left: -20px;
+}
+.navbar-user .navbar-list #logout{
+    margin-top: 310px;
 }
 .navbar-user .navbar-list li{
-    display: inline-block;
+    display: block;
+    margin-top: 25px;
 }
 .navbar-user .navbar-list li a{
     text-decoration: none;
@@ -27,14 +33,14 @@ body{
 
 }
 .navbar-user .user-nav-logo{
-    padding: 15px 20px;
+    padding: 20px auto;
+}
+.navbar-user .user-nav-logo img{
+    margin-top: 25px;
+    margin-left: 25%;
 }
 .user-nav-logo h1{
     color: white;
     margin-left: 15px;
 }
-.user-nav-logo{
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-}
+
