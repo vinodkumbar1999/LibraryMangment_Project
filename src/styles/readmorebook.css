@@ -1,10 +1,15 @@
-.readmorebook{
+.readmorebookcontainer{
     height: 600px;
     width: 40%;
     background-color: white;
     text-align: center;
-    margin: 20px auto;
+    margin: 3px auto;
+    border: 2px solid gainsboro;
+    
 }
-.readmorebook p::first-letter{
+.readmorebookcontainer p::first-letter{
     font-size: 28px;
+}
+.readmorebook{
+    padding-top: 80px;
 }

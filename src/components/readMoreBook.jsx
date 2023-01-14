@@ -21,9 +21,10 @@ const ReadMoreBook = () => {
 
     return (
         <div className="readmorebook">
+            <div className="readmorebookcontainer">
             <h2><u>{book.title}</u></h2>
             <p>{book.longDescription}</p>
-
+            </div>
         </div>
 
 
